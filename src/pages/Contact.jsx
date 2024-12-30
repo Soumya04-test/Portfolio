@@ -18,7 +18,7 @@ const Contact = () => {
 
   const submitHandler = async ({ name, email, message }) => {
     try {
-      const res = await axios.post("https://portfolio-backend-hito.onrender.com", {
+      const res = await axios.post("https://portfolio-backend-hito.onrender.com/contact", {
         name,
         email,
         message,
